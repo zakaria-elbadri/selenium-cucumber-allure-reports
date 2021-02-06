@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepdefs.RunCukeTest" time="18.34" tests="7" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="browser" value="chrome"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Zak/Git_Repositories/Selenium-cucumber-allure-reports-java"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env" value="pp1"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Zak/Git_Repositories/Selenium-cucumber-allure-reports-java"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5y/dpmwgf2506x5jlfpl60sdw880000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Zak/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8469488642886576833.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Zak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127/8|*.127/8|10/8|*.10/8|172.16/12|*.172.16/12|192.168/16|*.192.168/16|localhost|*.localhost"/>
+    <property name="user.home" value="/Users/Zak"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Zak"/>
+    <property name="java.class.path" value="/Users/Zak/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test -Dbrowser=chrome -Denv=pp1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="/Users/Zak/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Zak/Git_Repositories/Selenium-cucumber-allure-reports-java/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127/8|*.127/8|10/8|*.10/8|172.16/12|*.172.16/12|192.168/16|*.192.168/16|localhost|*.localhost"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127/8|*.127/8|10/8|*.10/8|172.16/12|*.172.16/12|192.168/16|*.192.168/16|localhost|*.localhost"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given user opens base lobby" classname="Scenario: Header" time="0.001"/>
+  <testcase name="Then my header is displayed" classname="Scenario: Header" time="0"/>
+  <testcase name="Scenario: Header" classname="Scenario: Header" time="0.66">
+    <error message="Can&apos;t get item from storage: uuid can&apos;t be null" type="java.lang.NullPointerException">java.lang.NullPointerException: Can't get item from storage: uuid can't be null
+</error>
+    <system-out><![CDATA[2021-02-06 01:14:44 [INFO] [afterScenario:20] - Scenario: Header passed
+2021-02-06 01:14:44 [INFO] [attachSnapshotToReport:1107] - Add snapshot to report
+2021-02-06 01:14:44 [INFO] [takeScreenShot:1045] - Taking snapshot
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Given user opens base lobby" classname="Scenario: Search" time="0"/>
+  <testcase name="Then my search is displayed" classname="Scenario: Search" time="0"/>
+  <testcase name="And user enters ABC in search form" classname="Scenario: Search" time="0"/>
+  <testcase name="Scenario: Search" classname="Scenario: Search" time="0.326">
+    <error message="Can&apos;t get item from storage: uuid can&apos;t be null" type="java.lang.NullPointerException">java.lang.NullPointerException: Can't get item from storage: uuid can't be null
+</error>
+    <system-out><![CDATA[2021-02-06 01:14:46 [INFO] [afterScenario:20] - Scenario: Search passed
+2021-02-06 01:14:46 [INFO] [attachSnapshotToReport:1107] - Add snapshot to report
+2021-02-06 01:14:46 [INFO] [takeScreenShot:1045] - Taking snapshot
+]]></system-out>
+  </testcase>
+</testsuite>

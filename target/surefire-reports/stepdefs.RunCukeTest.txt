@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: stepdefs.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 18.34 s <<< FAILURE! - in stepdefs.RunCukeTest
+Scenario: Header  Time elapsed: 0.66 s  <<< ERROR!
+java.lang.NullPointerException: Can't get item from storage: uuid can't be null
+
+Scenario: Search  Time elapsed: 0.326 s  <<< ERROR!
+java.lang.NullPointerException: Can't get item from storage: uuid can't be null
+
